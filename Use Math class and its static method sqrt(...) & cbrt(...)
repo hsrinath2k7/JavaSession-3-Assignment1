@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class MathMethodConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double squareroot, cuberoot;
+		
+		Scanner read = new Scanner(System.in);
+		
+		System.out.print("Enter the value for Calculations: ");
+		
+		double value = read.nextDouble();
+		
+		//sqrt is a method called from Match class 
+		squareroot = Math.sqrt(value);
+		
+		System.out.println(" Square Root is: " + squareroot);
+		
+		//cbrt is a method from Match class
+		cuberoot = Math.cbrt(value);		
+		
+		System.out.println(" Cube Root is: " + cuberoot);
+		
+		//MathMethodConcept.main(args);
+
+	}
+
+}
+/* Output
+
+Enter the value for Calculations: 125
+ Square Root is: 11.180339887498949
+ Cube Root is: 5.0
+ 
+ /*
